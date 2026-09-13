@@ -1,0 +1,6 @@
+Pterodactyl setup
+
+1. Create/get the current bot token from @BotFather.
+2. In Pterodactyl Startup variables set BOT_TOKEN to the real token.
+3. Do not paste the token into source files or commit it.
+4. If Telegram says TokenValidationError, the value in BOT_TOKEN is malformed/invalid; replace it with the current token from @BotFather.
