@@ -1,9 +1,0 @@
-services:
-  ravenkai:
-    build: .
-    restart: unless-stopped
-    env_file: .env
-    volumes:
-      - ./database:/app/database
-      - ./downloads:/app/downloads
-      - ./assets:/app/assets:ro
